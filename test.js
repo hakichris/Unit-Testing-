@@ -13,3 +13,8 @@ test('count characters in a string', () => {
 test('adding numbers', () => {
   expect( calculator.add(1,2)).toBe(3);
 });
+
+test('subst numbers', () => {
+  expect( calculator.subs(6,2)).toBe(4);
+});
+
